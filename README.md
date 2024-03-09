@@ -1,5 +1,8 @@
 # Project Overview (EasyPay)
 
+## Live URL
+[Click here to access the NoteCraft website](https://lustrous-arithmetic-6285c7.netlify.app)
+
 ## Frontend Development (React):
 
 - Implemented a user interface featuring signup, signin,sendmoney and a dashboard using React.
