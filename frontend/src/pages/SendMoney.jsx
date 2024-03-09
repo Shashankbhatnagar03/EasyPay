@@ -30,7 +30,7 @@ export const SendMoney = () => {
 
     const initiateTransfer = async () => {
         try {
-            const response = await axios.post("http://127.0.0.1:3000/api/v1/account/transfer", {
+            const response = await axios.post("https://easypay-kr50.onrender.com/api/v1/account/transfer", {
                 to: id,
                 amount
             }, {

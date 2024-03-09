@@ -16,7 +16,7 @@ export const Signup = () => {
 
   async function handleSignUp() {
     try {
-      const url = "http://127.0.0.1:3000/api/v1/user/signup";
+      const url = "https://easypay-kr50.onrender.com/api/v1/user/signup";
       const response = await axios.post(url, {
         firstName,
         lastName,

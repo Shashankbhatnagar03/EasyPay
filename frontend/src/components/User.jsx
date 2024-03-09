@@ -10,7 +10,7 @@ export default function Users  () {
     const [userId, setuserId] = useState('user');
     const navigate = useNavigate()
     const fetchUserData = async () =>{
-        const url = "http://localhost:3000/api/v1/user/details";
+        const url = "https://easypay-kr50.onrender.com/api/v1/user/details";
         const response = await axios.get(url, {
           headers:{
             "Authorization" : `Bearer ${localStorage.getItem('token')}`
@@ -28,7 +28,7 @@ export default function Users  () {
 
     useEffect(()=>{
         const getData = setTimeout(()=>{
-            axios.get("http://127.0.0.1:3000/api/v1/user/bulk?filter="+filter)
+            axios.get("https://easypay-kr50.onrender.com/api/v1/user/bulk?filter="+filter)
             .then(response =>{
             setUsers(response.data.user);
             })

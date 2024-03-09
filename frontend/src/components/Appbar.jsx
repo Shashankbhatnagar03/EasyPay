@@ -8,7 +8,7 @@ export default function Appbar() {
     const [userFirstName, setUserFirstName] = useState('user');
 
     const fetchUserData = async () =>{
-        const url = "http://localhost:3000/api/v1/user/details";
+        const url = "https://easypay-kr50.onrender.com/api/v1/user/details";
         const response = await axios.get(url, {
           headers:{
             "Authorization" : `Bearer ${localStorage.getItem('token')}`

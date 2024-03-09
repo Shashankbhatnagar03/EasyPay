@@ -12,7 +12,7 @@ export default function Dashboard() {
 
   
   async function fetchBalance(){
-    const url = "http://127.0.0.1:3000/api/v1/account/balance";
+    const url = "https://easypay-kr50.onrender.com/api/v1/account/balance";
     const response = await axios.get(url, {
       "headers":{
         "Authorization" : `Bearer ${localStorage.getItem('token')}`
@@ -23,7 +23,7 @@ export default function Dashboard() {
 
   async function addAmount() {
     try {
-      const url = "http://127.0.0.1:3000/api/v1/account/add";
+      const url = "https://easypay-kr50.onrender.com/api/v1/account/add";
       await axios.put(
         url,
         null,
