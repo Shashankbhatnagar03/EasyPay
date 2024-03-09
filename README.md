@@ -1,7 +1,7 @@
 # Project Overview (EasyPay)
 
 ## Live URL
-[Click here to access the NoteCraft website](https://lustrous-arithmetic-6285c7.netlify.app)
+[Click here to access the EasyPay website](https://lustrous-arithmetic-6285c7.netlify.app)
 
 ## Frontend Development (React):
 
